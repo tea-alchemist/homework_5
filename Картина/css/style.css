@@ -1,0 +1,76 @@
+body {
+
+}
+
+.wrapper {
+  outline: 1px solid black;
+  width: 479px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+
+tr {
+  border: 10px solid #000;
+}
+
+td {
+  border: 10px solid #000;
+}
+
+.line-1 {
+  width: 50px;
+}
+
+.line-2,
+.line-3 {
+  width: 60px;
+}
+
+.line-4 {
+  width: 130px;
+}
+
+.line-5,
+.line-6 {
+  width: 80px;
+}
+
+.row-1 {
+  height: 50px;
+}
+
+.row-2,
+.row-3 {
+  height: 130px;
+}
+
+.row-4,
+.row-5 {
+  height: 60px;
+}
+
+.row-6,
+.row-7 {
+  height: 30px;
+}
+
+.yellow {
+  background: #FFED5B;
+}
+
+.red {
+  background: #FF573B;
+}
+
+.black {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.blue {
+  background: #003570;
+}

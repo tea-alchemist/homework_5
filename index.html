@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Form</title>
+</head>
+<body>
+  <header class="main-header clearfix">
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#">Meu YouBike</a></li>
+        <li><a href="#">Vender</a></li>
+        <li><a href="#">Forum</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Ajuda</a></li>
+        <li><a href="#">Minhas Ofertas</a></li>
+        <li><a class="enter" href="#">Ola! <span class="item">Entrar</span> ou <span class="item">Cadastre-se</span></a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="wrapper">
+    <form for="form" class="reg-form" action="index.html" method="post">
+      <h1>Cadastre-se</h1>
+      <div class="form-item">
+        <a class="facebook" href="#"><img src="img/facebook.png" alt="facebook"></a>
+        <span class="form-decor">ou</span>
+        <input class="input-info" type="text" name="first-name" value="First Name">
+        <input class="input-info" type="text" name="last-name" value="Last Name">
+        <input class="input-info" type="email" name="email" value="Email Address">
+        <input class="input-info" type="password" name="password" value="Choose Password">
+        <input class="input-info" type="password" name="password-confirm" value="Password Confirm">
+        <input class="check" id="checkbox" type="checkbox" name="checkout">
+        <label for="checkbox">Send me Youbike updates and tips</label>
+      </div>
+      <button class="create-button" id="form" type="submit">Create my Account</button>
+      <p class="form-text">By clicking the button above, you agree to the Terms of Service<br>
+      Xiew our Privacy Policy.</p>
+    </form>
+  </div>
+</body>
+</html>
